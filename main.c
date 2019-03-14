@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "lib/function.h"
 
 int main(){
 
-	printf("Hello world");
+	write();
 	return 0;
 }
