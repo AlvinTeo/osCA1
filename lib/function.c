@@ -131,7 +131,7 @@ int get_input(unsigned char *memory, unsigned char *disk_memory)
         else
         {
             printf("\n|~~~~~~~~~@OUTPUT@~~~~~~~~~~|");
-            printf("\n\n|~~~~~  Address: 0x%04x  ~~~~~|\n", add);
+            printf("\n\n|~~~~  Address: 0x%04x  ~~~~|\n", add);
             unsigned char content = memory[add];
             printf("\n|~~~~~~~  Content: %c  ~~~~~~|\n", content);
             printf("\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n\n");
